@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/*@theme{
-  --color-primary: #;
-  --color-secondary: #;
-}?*
+@theme{
+  --color-AADT-secondary-dark: #E2E6EE;
+  --color-AADT-secondary-light: #FBFCFE;
+}

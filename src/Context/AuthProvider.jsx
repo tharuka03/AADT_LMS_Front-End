@@ -15,7 +15,8 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem("token");
   };
 
-  const isAuthenticated = !!user;
+  //dev environment, after login connected edit this to !!user.
+  const isAuthenticated = !user;
 
   return (
     <AuthContext.Provider value={{ user, login, logout, isAuthenticated }}>

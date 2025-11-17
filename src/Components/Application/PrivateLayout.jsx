@@ -4,9 +4,9 @@ import Footer from './Footer'
 
 function PrivateLayout({ children }) {
   return (
-    <div>
+    <div className='h-screen flex flex-col justify-between bg-AADT-secondary-light'>
         <Navbar />
-        <main>{children}</main>
+        <main className='pt-30 w-[80%] mx-auto'>{children}</main>
         <Footer />
     </div>
   )
