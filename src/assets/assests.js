@@ -1,22 +1,67 @@
+
+
+export const IMG = {
+
+}
+
 export const navbar_items = [
     {
         name: "My Courses",
-        icon: "",
-        path: "/my-courses"
+        icon: "fi-rr-graduation-cap",
+        path: "/dashboard"
     },
     {
         name: "Gradebook",
-        icon: "",
-        path: "/gradebook"
+        icon: "fi-rr-dashboard",
+        path: "/Gradebook"
     },
     {
         name: "Announcement",
-        icon: "",
-        path: "/announcement"
+        icon: "fi-rr-megaphone",
+        path: "/Announcements"
     },
     {
         name: "Profile",
-        icon: "",
+        icon: "fi-rr-user",
         path: "/Profile"
     },
+]
+
+export const MyCourses = [
+    {
+        img: "path/to/image1.jpg",
+        title: "Course Title 1",
+        instructor: "Instructor Name 1",
+        duration: "10 hours",
+        completed: true
+    },
+    {
+        img: "path/to/image2.jpg",
+        title: "Course Title 2",
+        instructor: "Instructor Name 2",
+        duration: "8 hours",
+        completed: false
+    },
+    {
+        img: "path/to/image2.jpg",
+        title: "Course Title 2",
+        instructor: "Instructor Name 2",
+        duration: "8 hours",
+        completed: false
+    },
+    {
+        img: "path/to/image2.jpg",
+        title: "Course Title 2",
+        instructor: "Instructor Name 2",
+        duration: "8 hours",
+        completed: false
+    },
+    {
+        img: "path/to/image2.jpg",
+        title: "Course Title 2",
+        instructor: "Instructor Name 2",
+        duration: "8 hours",
+        completed: false
+    },
+    
 ]

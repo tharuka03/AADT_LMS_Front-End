@@ -1,8 +1,14 @@
 import React from 'react'
+import { primaryStyles } from '../Styles/primaryStyles'
+import MyCourseDisplayArea from '../Components/Application/MyCourseDisplayArea'
 
 function Home() {
+
   return (
-    <div>Home</div>
+    <div className=''>
+      <h1 className={primaryStyles.PageTitle}>My Courses</h1>
+      <MyCourseDisplayArea />
+    </div>
   )
 }
 
