@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className='fixed w-full flex justify-center py-2 min-h-20 z-50'>
       <div className='relative w-[95%] flex justify-center items-center bg-white shadow-lg shadow-AADT-secondary-dark py-3 rounded-xl'>
-        <ul className={`${showMenu ? 'scale-100 translate-y-7/11' : ' scale-0 -translate-y-[100%]'} flex absolute md:flex md:relative bg-[#FFFFFF5A] p-8 md:p-0 shadow-md md:shadow-none backdrop-blur-xl md:backdrop-blur-none rounded-xl md:bg-transparent w-full md:w-auto md:top-0 flex-col md:flex-row gap-3 items-center transition-transform duration-500 ease-in-out`}>
+        <ul className={`${showMenu ? 'scale-100 translate-y-7/11' : ' scale-0 -translate-y-full'} flex absolute md:flex md:relative bg-[#FFFFFF5A] p-8 md:p-0 shadow-md md:shadow-none backdrop-blur-xl md:backdrop-blur-none rounded-xl md:bg-transparent w-full md:w-auto md:top-0 flex-col md:flex-row gap-3 items-center transition-transform duration-500 ease-in-out`}>
           {navbar_items.map((navItem, index) => (
             <NavLink onClick={()=>setShowMenu(false)} key={index} to={navItem.path} >
               {({ isActive }) => (
