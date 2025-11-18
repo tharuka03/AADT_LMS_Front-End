@@ -2,7 +2,7 @@ import React from 'react'
 
 function CourseCard({course}) {
   return (
-    <div className='border p-4 pb-2 rounded-xl'>
+    <div className='bg-white p-4 pb-2 rounded-xl'>
         <div className='border min-h-40 rounded-lg bg-AADT-secondary-dark border-AADT-secondary-dark'>
             <img src={course.img} alt={course.title} />
         </div>

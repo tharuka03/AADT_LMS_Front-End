@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+*{
+  scrollbar-width: none;
+}
+
 @theme{
   --color-AADT-secondary-dark: #E2E6EE;
   --color-AADT-secondary-light: #FBFCFE;
