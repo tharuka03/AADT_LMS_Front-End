@@ -1,9 +1,14 @@
 # AADT LMS Frontend
 ## Development Envoronment
-### Development Library: 
-- React JS
+### Development: 
+- Buid tool: Vite
+- Front-end library: React JS
 ### Styling: 
+- css
 - Tailwind CSS
+
+## Figma files:
+- [Student LMS Design] (https://www.figma.com/design/H9VySDeqrOGKak5CtjiO5V/LMS?node-id=16-72&t=L78HEGyLATa8luge-1)
 
 # React + Vite
 
