@@ -1,7 +1,9 @@
 # AADT LMS Frontend
 ## Development Envoronment
-### - Development Library: React JS
-### - Styling: Tailwind CSS
+### Development Library: 
+- React JS
+### Styling: 
+- Tailwind CSS
 
 # React + Vite
 
