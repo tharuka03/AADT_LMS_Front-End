@@ -4,8 +4,18 @@
   scrollbar-width: none;
 }
 
+i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @theme{
   --color-AADT-secondary-dark: #E2E6EE;
   --color-AADT-secondary-light: #FBFCFE;
   --color-AADT-blue: #1572FE;
+  --color-AADT-white-50: #FFFFFF28;
+  --color-AADT-white-100: #FFFFFF;
+  --color-AADT-black: #292940;
+
 }

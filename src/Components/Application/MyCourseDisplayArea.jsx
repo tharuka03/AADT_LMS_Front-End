@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CourseFilter from '../../Elements/CourseFilter'
 import CourseCard from '../../Elements/CourseCard'
-import { MyCourses } from '../../assets/assests';
+import { MyCourses } from '../../assets/assets.js';
 
 function MyCourseDisplayArea() {
 
