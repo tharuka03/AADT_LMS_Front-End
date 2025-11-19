@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CourseFilter from '../../Elements/CourseFilter'
 import CourseCard from '../../Elements/CourseCard'
-import { MyCourses } from '../../assets/assests';
+import { MyCourses } from '../../assets/assets.js';
 
 function MyCourseDisplayArea() {
 
@@ -19,15 +19,17 @@ function MyCourseDisplayArea() {
     });
 
   return (
-    <div className='flex flex-col mx-auto'>
-        MyCourseDisplayArea
+    <div className='flex flex-col mx-auto gap-10 py-7'>
         <CourseFilter search={search} setSearch={setSearch} />
-
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 justify-center'>
-            {courseList.map((course, index) => (
-                <CourseCard key={index} course={course} />
-            ))}
+        <div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 justify-center'>
+                {courseList.map((course, index) => (
+                    <CourseCard key={index} course={course} />
+                ))}
+            </div>
+            <h1>page</h1>
         </div>
+        
     </div>
   )
 }
