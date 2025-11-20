@@ -1,6 +1,7 @@
 import React from 'react'
 
 function LoadingPage() {
+    const [a, setS] = React.useState(false);
   return (
     <div className='bg-AADT-blue w-full h-screen flex gap-2 justify-center items-center'>
         <h1 className='text-white text-4xl font-thin'>Loading</h1>

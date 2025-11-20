@@ -10,6 +10,16 @@ i{
   justify-content: center;
 }
 
+h2{
+  font-weight: bold;
+}
+
+.enable-scroll-bar{
+  scrollbar-width: thin;
+  scrollbar-color: #292940 #FBFCFE;
+  scroll-behavior: smooth;
+}
+
 @theme{
   --color-AADT-secondary-dark: #E2E6EE;
   --color-AADT-secondary-light: #FBFCFE;
