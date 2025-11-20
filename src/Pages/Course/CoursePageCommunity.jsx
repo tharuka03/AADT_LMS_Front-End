@@ -7,6 +7,7 @@ function CoursePageCommunity() {
   return (
     <div>
       <h1 className={primaryStyles.PageTitle}>Community (Q&A)</h1>
+      <h2>{courseID}</h2>
     </div>
   )
 }

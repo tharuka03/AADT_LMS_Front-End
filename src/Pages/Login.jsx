@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { primaryStyles } from '../Styles/primaryStyles';
 import LoginFormArea from '../Components/Auth/loginFormArea';
 import ForgotPasswordArea from '../Components/Auth/ForgotPasswordArea';
 

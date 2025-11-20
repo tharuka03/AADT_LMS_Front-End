@@ -27,7 +27,7 @@ function EnterOTP() {
     
     const handleContinue = () => {
         if (otp) {
-            setScreenStatus('enterPassword');
+            //setScreenStatus('enterPassword');
         }
     };
 
