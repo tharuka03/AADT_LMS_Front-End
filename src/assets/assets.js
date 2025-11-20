@@ -61,10 +61,29 @@ export const MyCourses = [
     {
         id: 1,
         img: CourseImage1,
-        title: "Modern React from the Beginning beginingsdasda beginingsdasda beginingsdasda",
+        title: "Modern React from the Beginning. (ReactJS | Node JS | MongoDB)",
         instructor: "Instructor Name 1",
         duration: "10 hours",
-        completed: true
+        completed: true,
+        description: "Master full-stack web development with the powerful MERN stack (MongoDB, Express.js, React, and Node.js). This advanced course takes you beyond the basics, equipping you with the skills to build scalable, production-ready web applications using JavaScript across the entire development stack.",
+        CourseOutline: "You'll dive deep into MongoDB for flexible database design and efficient data modeling, while mastering Express.js and Node.js to create robust RESTful APIs and server-side applications. The course extensively covers React, including hooks, context API, and advanced state management patterns, enabling you to build dynamic, responsive user interfaces.",
+        LearningOutComes: [
+            "Develop full-stack applications using MongoDB, Express.js, React.js, and Node.js with efficient state and data management.",
+            "Implement RESTful APIs and handle asynchronous data flow with proper error handling and validation.",
+            "Build dynamic, responsive UI components using React hooks, context, and routing principles.",
+            "Integrate authentication and authorization mechanisms using JWT and secure session management.",
+            "Deploy MERN applications on cloud platforms with continuous integration and environment configuration best practices."
+        ],
+        Lessons: [
+
+        ],
+        QnA: [
+
+        ],
+        performance: [
+
+        ],
+        Certificate: ""
     },
     {
         id: 2,

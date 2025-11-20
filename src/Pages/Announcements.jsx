@@ -3,7 +3,7 @@ import { primaryStyles } from '../Styles/primaryStyles'
 
 function Announcements() {
   return (
-    <div>
+    <div className={primaryStyles.pageContainerPrimary}>
         <h1 className={primaryStyles.PageTitle}>Announcements</h1>
     </div>
   )

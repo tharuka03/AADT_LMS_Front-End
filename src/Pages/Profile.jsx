@@ -3,7 +3,7 @@ import { primaryStyles } from '../Styles/primaryStyles'
 
 function Profile() {
   return (
-    <div>
+    <div className={primaryStyles.pageContainerPrimary}>
         <h1 className={primaryStyles.PageTitle}>Profile</h1>
     </div>
   )

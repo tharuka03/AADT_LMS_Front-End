@@ -14,8 +14,23 @@ import CoursePageLessons from './Pages/Course/CoursePageLessons'
 import CoursePageCommunity from './Pages/Course/CoursePageCommunity'
 import CoursePagePerformance from './Pages/Course/CoursePagePerformance'
 import CoursePageCertificate from './Pages/Course/CoursePageCertificate'
+import { useEffect, useState } from 'react'
+import LoadingPage from './Pages/LoadingPage'
 
 function App() {
+  const[loading, setLoading] = useState(true);
+
+  //this use effect need to be replaced with the data fetch logic
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if(loading) {
+    return <LoadingPage />;
+  }
 
   return (
     <AuthProvider>
