@@ -7,6 +7,7 @@ function CoursePageLessons() {
   return (
     <div>
       <h1 className={primaryStyles.PageTitle}>Lessons</h1>
+      <h2>{courseID}</h2>
     </div>
   )
 }

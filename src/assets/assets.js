@@ -1,7 +1,9 @@
-
+import CourseImage1 from './Media/courseIMG1.jpg'
+import CourseImage2 from './Media/courseIMG2.avif'
 
 export const IMG = {
-
+    CourseImage1,
+    CourseImage2
 }
 
 export const navbar_items = [
@@ -58,15 +60,15 @@ export const side_navbar_items = [
 export const MyCourses = [
     {
         id: 1,
-        img: "path/to/image1.jpg",
-        title: "Course Title 1",
+        img: CourseImage1,
+        title: "Modern React from the Beginning beginingsdasda beginingsdasda beginingsdasda",
         instructor: "Instructor Name 1",
         duration: "10 hours",
         completed: true
     },
     {
         id: 2,
-        img: "path/to/image2.jpg",
+        img: CourseImage2,
         title: "Course Title 1",
         instructor: "Instructor Name 2",
         duration: "8 hours",
@@ -74,7 +76,7 @@ export const MyCourses = [
     },
     {
         id: 3,
-        img: "path/to/image2.jpg",
+        img: CourseImage1,
         title: "Course Title 2",
         instructor: "Instructor Name 2",
         duration: "8 hours",
@@ -82,7 +84,7 @@ export const MyCourses = [
     },
     {
         id: 4,
-        img: "path/to/image2.jpg",
+        img: CourseImage2,
         title: "Course Title 2",
         instructor: "Instructor Name 2",
         duration: "8 hours",
@@ -90,7 +92,7 @@ export const MyCourses = [
     },
     {
         id: 5,
-        img: "path/to/image2.jpg",
+        img: CourseImage2,
         title: "Course Title 2",
         instructor: "Instructor Name 2",
         duration: "8 hours",

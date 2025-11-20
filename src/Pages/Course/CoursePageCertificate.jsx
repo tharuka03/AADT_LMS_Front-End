@@ -7,6 +7,7 @@ function CoursePageCertificate() {
   return (
     <div>
         <h1 className={primaryStyles.PageTitle}>Certificate</h1>
+        <h2>{courseID}</h2>
     </div>
   )
 }

@@ -7,6 +7,7 @@ function CoursePagePerformance() {
   return (
     <div>
         <h1 className={primaryStyles.PageTitle}>Performance</h1>
+        <h2>{courseID}</h2>
     </div>
   )
 }
