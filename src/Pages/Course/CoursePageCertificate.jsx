@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import { primaryStyles } from '../../Styles/primaryStyle';
+import { primaryStyles } from '../../Styles/';
 
 function CoursePageCertificate() {
     const { courseID } = useParams();
