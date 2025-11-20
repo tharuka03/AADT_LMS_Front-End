@@ -7,4 +7,5 @@ export const primaryStyles = {
     PageTitle: "text-left text-lg lg:text-xl font-semibold camelcase",
     CourseCardTitle: "text-left text-lg font-semibold text-AADT-black line-clamp-2 leading-tight",
     CourseCardInstructor: "text-left text-sm text-AADT-gray",
+    pageContainerPrimary: "w-[95%] md:w-[80%] mx-auto",
 }
