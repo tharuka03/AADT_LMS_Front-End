@@ -3,7 +3,7 @@ import { primaryStyles } from '../Styles/primaryStyles'
 
 function GradeBook() {
   return (
-    <div className=''>
+    <div className={primaryStyles.pageContainerPrimary}>
         <h1 className={primaryStyles.PageTitle}>Grade Book</h1>
     </div>
   )
