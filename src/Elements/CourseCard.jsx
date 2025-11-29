@@ -7,7 +7,7 @@ function CourseCard({course}) {
     const[imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <Link to={`/course/${course.id}`} className='bg-white relative p-3 pb-2 flex flex-col justify-start gap-2 rounded-xl border'>
+    <Link to={`/course/${course.id}`} className='bg-white relative p-3 pb-2 flex flex-col justify-start gap-2 rounded-xl shadow-md transition duration-300 ease-in-out md:hover:-translate-y-2 md:hover:shadow-xl md:hover:scale-105 md:active:shadow-blue-50'>
         <div className=' relative min-h-40 rounded-lg aspect-3/2border bg-AADT-secondary-dark '>
             <img src={course.img} className={`rounded-lg w-full h-full object-cover transition duration-200 ease-in ${imageLoaded ? 'blur-none' : 'blur-sm'}`} alt={course.title} loading="lazy" onLoad={()=> setImageLoaded(true)} />
         </div>
