@@ -61,7 +61,7 @@ export const MyCourses = [
     {
         id: 1,
         img: CourseImage1,
-        title: "Modern React from the Beginning. (ReactJS | Node JS | MongoDB)",
+        title: "Modern React from the Beginning. (ReactJS | Node JS | MongoDB | Express JS | Javascript)",
         instructor: "Instructor Name 1",
         duration: "10 hours",
         completed: true,
